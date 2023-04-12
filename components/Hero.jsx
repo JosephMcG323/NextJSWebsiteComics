@@ -24,8 +24,8 @@ const Hero = ({heading, message}) => {
 
 <h2 style={{
             fontSize: '2.8rem',
-            paddingRight: '22rem',
-            paddingLeft: '2rem',
+            paddingRight: '20rem',
+            paddingLeft: '12rem',
             lineHeight: '2rem',
             textAlign: 'center',
             color: 'black',
@@ -37,8 +37,8 @@ const Hero = ({heading, message}) => {
           <p style={{
             fontSize: '2.8rem',
             paddingTop: '2rem',
-            paddingRight: '22rem',
-            paddingLeft: '2rem',
+            paddingRight: '20rem',
+            paddingLeft: '12rem',
             lineHeight: '2rem',
             textAlign: 'center',
             color: 'white',

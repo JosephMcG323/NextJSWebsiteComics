@@ -186,7 +186,7 @@ export default function Home() {
         <div id='gallery' className='max-w-[1240px] py-4 mx-auto'>
           <h1 style={{
             fontSize: '2.8rem',
-            lineHeight: '2rem',
+            lineHeight: '1rem',
             textAlign: 'center',
             color: 'black',
             padding: '2',
@@ -204,8 +204,7 @@ export default function Home() {
           }}
         />
         <p className="py-5"></p>
-        <div id='gallery' className='max-w-[900px] py-4 mx-auto'>
-
+        <div id='gallery' className='max-w-[900px]  mx-auto'>
         <Gallery images={IMAGES} />
 
         </div>
