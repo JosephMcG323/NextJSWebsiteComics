@@ -42,36 +42,29 @@ const IMAGES =
       thumbnailHeight: 312,
       caption: "@GoSleepyHead"
     },
-    {
-      src: "jessietall sad.png",
-      thumbnail:  "jessietall sad.png",
-      thumbnailWidth: 320,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-    
-    {
-      src: "shinji xtc.png",
-      thumbnail:  "shinji xtc.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "shinji blu.png",
-      thumbnail:  "shinji blu.png",
-      thumbnailWidth: 312,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-
-    {
-      src: "mecha colour bite622PUYAPL.png",
-      thumbnail:  "mecha colour bite622PUYAPL.png",
-      thumbnailWidth: 320,
-      thumbnailHeight: 412,
-      caption: "@GoSleepyHead"
-    },
+      {
+        src: "jessietall sad.png",
+        thumbnail:  "jessietall sad.png",
+        thumbnailWidth: 320,
+        thumbnailHeight: 312,
+        caption: "@GoSleepyHead"
+      },
+      
+      {
+        src: "shinji xtc.png",
+        thumbnail:  "shinji xtc.png",
+        thumbnailWidth: 350,
+        thumbnailHeight: 312,
+        caption: "@GoSleepyHead"
+      },
+      {
+        src: "shinji blu.png",
+        thumbnail:  "shinji blu.png",
+        thumbnailWidth: 312,
+        thumbnailHeight: 312,
+        caption: "@GoSleepyHead"
+      },
+      
     {
       src: "rei look up3.png",
       thumbnail:  "rei look up3.png",
@@ -167,7 +160,10 @@ const IMAGES =
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
-]
+  ]
+
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -183,6 +179,7 @@ export default function Home() {
       </Head>
 
       <Hero heading='SleepyHead Comics' message='The story about a narcoleptic superhero in Stroke City!' />
+
       <div id='galleryZoom' className='max-w-[1240px] mx-auto'>
         <p className="py-5"></p>
 
@@ -207,17 +204,22 @@ export default function Home() {
           }}
         />
         <p className="py-5"></p>
+        <div id='gallery' className='max-w-[900px] py-4 mx-auto'>
+
         <Gallery images={IMAGES} />
+
+        </div>
+
         <h1 > ​​​​</h1>
         <h1 > ​​​​</h1>
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center', height: '15vh' }}>
         </div>
-
+{/* 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" width={328} />
-      </div>
+      </div> */}
 
     </div>
   );

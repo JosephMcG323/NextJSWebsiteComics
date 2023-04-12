@@ -20,7 +20,9 @@ const Hero = ({heading, message}) => {
         />
       </div>
 
-                <h2 style={{
+<div>
+
+<h2 style={{
             fontSize: '2.8rem',
             paddingRight: '22rem',
             paddingLeft: '2rem',
@@ -32,19 +34,20 @@ const Hero = ({heading, message}) => {
             fontSize: '49px'
           }}>{heading}</h2>
 
-
-                <p style={{
-                  whiteSpace: 'break-spaces',
+          <p style={{
             fontSize: '2.8rem',
+            paddingTop: '2rem',
             paddingRight: '22rem',
             paddingLeft: '2rem',
             lineHeight: '2rem',
             textAlign: 'center',
-            color: 'black',
+            color: 'white',
             padding: '2',
             fontFamily: '-moz-initial',
             fontSize: '29px'
-          }}className="py-5 text-xl">{message}</p>
+          }}>An exciting adventure about a narcoleptic superhero</p>
+</div>
+        
             </div>
             {/* <h2 className=" py-5 text-5xl font-bold">{heading}</h2>
             
