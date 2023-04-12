@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet" />
-
+<link rel="preconnect" href="https://fonts.googleapis.com"/> 
       </Head>
       <body>
         <Main />

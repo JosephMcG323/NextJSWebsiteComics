@@ -6,22 +6,53 @@ const Hero = ({heading, message}) => {
     return (
         <div>
 
+
         <div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
             {/* Overlay */}
+            <a href="https://codingbeautydev.com" target="_blank" rel="noreferrer"/>
             <div className='zoom'>
+              
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
           width='500'
           height='900'
-
         />
       </div>
 
-                <h2 className="text-5xl font-bold">{heading}</h2>
-                <p className="py-5 text-xl">{message}</p>
-                <button className="px-8 py-2 border">Book</button>
+                <h2 style={{
+            fontSize: '2.8rem',
+            paddingRight: '22rem',
+            paddingLeft: '2rem',
+            lineHeight: '2rem',
+            textAlign: 'center',
+            color: 'black',
+            padding: '2',
+            fontFamily: '-moz-initial',
+            fontSize: '49px'
+          }}>{heading}</h2>
+
+
+                <p style={{
+                  whiteSpace: 'break-spaces',
+            fontSize: '2.8rem',
+            paddingRight: '22rem',
+            paddingLeft: '2rem',
+            lineHeight: '2rem',
+            textAlign: 'center',
+            color: 'black',
+            padding: '2',
+            fontFamily: '-moz-initial',
+            fontSize: '29px'
+          }}className="py-5 text-xl">{message}</p>
             </div>
+            {/* <h2 className=" py-5 text-5xl font-bold">{heading}</h2>
+            
+            padding-left: 1.5em;
+            
+            
+            
+            */}
 
       </div>
 

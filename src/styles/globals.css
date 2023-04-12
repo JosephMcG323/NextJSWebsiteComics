@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 html {
   scroll-behavior: smooth;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,3 +22,13 @@ html {
 .zoom:hover {
   transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+p {
+  white-space: pre;
+}
+/* .headerFont {
+  font-size: '1.5rem';
+  line-height: '2rem';
+  text-align: 'center';
+  padding: '2';
+  font-family: 'Josefin Sans', cursive; 
+} */
