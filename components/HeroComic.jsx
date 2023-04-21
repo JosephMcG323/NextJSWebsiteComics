@@ -21,17 +21,28 @@ const HeroComic = ({heading, message}) => {
       </div>
 
       <div>
+          <p
+          style={{
+            wordBreak: 'break-all',
+            marginTop: '1rem',
+            whiteSpace: 'normal'
+          }}
+          ></p>
+
 
 <h2 style={{
             fontSize: '2.8rem',
+            
             paddingRight: '20rem',
             paddingLeft: '12rem',
             lineHeight: '2rem',
+            wordSpacing: '5px',
             textAlign: 'center',
-            color: 'black',
+            color: 'white',
+            textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000',            
             padding: '2',
             fontFamily: '-moz-initial',
-            fontSize: '49px'
+            fontSize: '50px'
           }}>{heading}</h2>
 
           <p style={{
@@ -42,10 +53,11 @@ const HeroComic = ({heading, message}) => {
             lineHeight: '2rem',
             textAlign: 'center',
             color: 'white',
+            textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
             padding: '2',
             fontFamily: '-moz-initial',
             fontSize: '29px'
-          }}>An exciting adventure about a narcoleptic superhero</p>
+          }}>{message}</p>
 </div>
 
 

@@ -2,7 +2,7 @@ import React from 'react'
 import HeroComic from '../../components/HeroComic'
 import Portfolio from '../../components/Portfolio'
 
-const work = () => {
+const chapter1 = () => {
   return (
     <div>
         <HeroComic heading='Chapter 1 -  Heroes of Stroke City' message = 'Jonas Wakefield has to intercept a fleeing assailant running rampage through Stroke City '></HeroComic>
@@ -11,4 +11,4 @@ const work = () => {
   )
 }
 
-export default work
+export default chapter1

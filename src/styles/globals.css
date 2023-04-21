@@ -23,6 +23,17 @@ html {
   transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+.zoom_arrow {
+  transition: transform .2s; /* Animation */
+  padding-left: 30%;
+  padding-right: 25%;
+
+}
+
+.zoom_arrow:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 
 .similar { 
   float:left; 

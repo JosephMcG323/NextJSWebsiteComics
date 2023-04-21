@@ -21,16 +21,26 @@ const Hero = ({heading, message}) => {
 
 <div>
 
+<div className='zoom_arrow'>
+        <Image
+          src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy.png'
+          alt='/'
+          width='250'
+          height='290'
+        />   
+      </div>
+
 <h2 style={{
             fontSize: '2.8rem',
             paddingRight: '20rem',
             paddingLeft: '12rem',
             lineHeight: '2rem',
             textAlign: 'center',
-            color: 'black',
+            color: 'white',
+            textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000',            
             padding: '2',
             fontFamily: '-moz-initial',
-            fontSize: '49px'
+            fontSize: '50px'
           }}>{heading}</h2>
 
           <p style={{
@@ -41,6 +51,7 @@ const Hero = ({heading, message}) => {
             lineHeight: '2rem',
             textAlign: 'center',
             color: 'white',
+            textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
             padding: '2',
             fontFamily: '-moz-initial',
             fontSize: '29px'

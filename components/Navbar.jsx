@@ -44,11 +44,12 @@ const Navbar = () => {
                     <li className='p-4'>
                         <Link href='/#gallery'>Gallery</Link>
                     </li>
+       
                     <li className='p-4'>
-                        <Link href='/work'>Narcolepto-Man Comic</Link>
+                        <Link href='/chapterHome'>Narcolepto-Man Comic</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/contact'>Contact</Link>
+                        <Link href='/ecchi'>Ecchi</Link>
                     </li>
                 </ul>
                 {/* Mobile  Button */}
@@ -68,10 +69,10 @@ const Navbar = () => {
                             <Link href='/#gallery'>Gallery</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/work'>Work</Link>
+                            <Link href='/chapter1'>chapter1</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/contact'>Contact</Link>
+                            <Link href='/ecchi'>Ecchi</Link>
                         </li>
                     </ul>
                 </div>
