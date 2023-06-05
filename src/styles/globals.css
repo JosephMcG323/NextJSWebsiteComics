@@ -6,7 +6,37 @@ html {
   scroll-behavior: smooth;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-left: 9%;
 
+}
+.home5Main1Img {
+  float: left;
+  width: 53%;
+  height: auto;
+  padding-top: 9%;
+  padding-left: 9%;
+  padding-right: 9%;
+
+}
+.home5Main7Img {
+  width: 53%;
+  height: auto;
+  padding-top: 9%;
+  padding-left: 9%;
+  padding-right: 9%;
+
+}
+.crop-container-lillys {
+
+  overflow: hidden;
+}
+.crop-container-lillys img {
+  margin-top: -30px;
+}
 .custom-img {
 
   background-image: url('/darkerPAttern.png');

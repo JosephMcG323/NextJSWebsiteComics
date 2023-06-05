@@ -42,15 +42,12 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#gallery'>Gallery</Link>
-                    </li>
-       
-                    <li className='p-4'>
                         <Link href='/chapterHome'>Narcolepto-Man Comic</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/ecchi'>Ecchi</Link>
+                        <Link href='/#gallery'>Gallery</Link>
                     </li>
+
                 </ul>
                 {/* Mobile  Button */}
                 <div onClick={handleNav} className='block sm:hidden z-10'>

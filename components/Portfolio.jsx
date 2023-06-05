@@ -76,14 +76,29 @@ const Portfolio = () => {
 
 
 
-
+        <div style={{paddingRight: `20`}} className='zoom_arrow'>
+        <Image
+          src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy copy.png'
+          alt='/'
+          width='250'
+          height='290'
+        />   
+      </div> 
 
 
         <div className='w-full h-full'>
 
 
         </div>
-      </div>      </div>
+      </div>      </div>   <p style={{
+            fontSize: '2.8rem',
+            lineHeight: '2rem',
+            textAlign: 'center',
+            color: 'white',
+            textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+            fontFamily: '-moz-initial',
+            fontSize: '29px'
+          }}>An exciting adventure about a narcoleptic superhero</p>
 
     </div>
   )

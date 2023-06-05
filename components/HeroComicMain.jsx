@@ -9,7 +9,7 @@ const HeroComicMain = ({heading, message}) => {
 <div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
             {/* Overlay */}
             <div className='zoom'>
-            <a href="https://codingbeautydev.com" target="_blank" rel="noreferrer">
+            <a href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
@@ -78,6 +78,8 @@ const HeroComicMain = ({heading, message}) => {
 }}>• Chapter 2 - Strokers</p>
 </a>
 
+<a href="/chapter3">
+
 <p style={{
   fontSize: '2.8rem',
   paddingTop: '1rem',
@@ -90,6 +92,7 @@ const HeroComicMain = ({heading, message}) => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
 }}>• Chapter 3 - The Clippers Are Coming</p>
+</a>
 </div>
 
           <p style={{

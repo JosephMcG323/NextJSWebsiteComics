@@ -1,159 +1,27 @@
 import React from 'react'
-
-const IMAGES =
-  [
-    {
-      src: "TagakiSanlaughBackG.png",
-      thumbnail:  "TagakiSanlaughBackG.png",
-      thumbnailWidth: 312,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "TagakiSanWaterBackG.png",
-      thumbnail:  "TagakiSanWaterBackG.png",
-      thumbnailWidth: 312,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "ShinjiSittingTrain.png",
-      thumbnail:  "ShinjiSittingTrain.png",
-      thumbnailWidth: 550,
-      thumbnailHeight: 412,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "jessietall kiss 2.png",
-      thumbnail:  "jessietall kiss 2.png",
-      thumbnailWidth: 500,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-      {
-        src: "jessietall sad.png",
-        thumbnail:  "jessietall sad.png",
-        thumbnailWidth: 320,
-        thumbnailHeight: 312,
-        caption: "@GoSleepyHead"
-      },
-      
-      {
-        src: "shinji xtc.png",
-        thumbnail:  "shinji xtc.png",
-        thumbnailWidth: 350,
-        thumbnailHeight: 312,
-        caption: "@GoSleepyHead"
-      },
-      {
-        src: "shinji blu.png",
-        thumbnail:  "shinji blu.png",
-        thumbnailWidth: 312,
-        thumbnailHeight: 312,
-        caption: "@GoSleepyHead"
-      },
-      
-    {
-      src: "rei look up3.png",
-      thumbnail:  "rei look up3.png",
-      thumbnailWidth: 400,
-      thumbnailHeight: 412,
-      caption: "@GoSleepyHead"
-    },
-
-    {
-      src: "rei sit.png",
-      thumbnail:  "rei sit.png",
-      thumbnailWidth: 400,
-      thumbnailHeight: 412,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "rei standasd.png",
-      thumbnail:  "rei standasd.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "nami crack.png",
-      thumbnail:  "nami crack.png",
-      thumbnailWidth: 320,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "nami low 2.png",
-      thumbnail:  "nami low 2.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-
-
-    {
-      src: "re8 Olga 1.png",
-      thumbnail:  "re8 Olga 1.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "re8 Olga2.png",
-      thumbnail:  "re8 Olga2.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "mallow header.png",
-      thumbnail:  "mallow header.png",
-      thumbnailWidth: 480,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "mallowOutKimono.png",
-      thumbnail:  "mallowOutKimono.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "leonaTug.jpg",
-      thumbnail:  "leonaTug.jpg",
-      thumbnailWidth: 380,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "asuka kimono.png",
-      thumbnail:  "asuka kimono.png",
-      thumbnailWidth: 280,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "asuka kimono1.png",
-      thumbnail:  "asuka kimono1.png",
-      thumbnailWidth: 580,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-
-    {
-      src: "nami low 4.png",
-      thumbnail:  "nami low 4.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
-  ]
+import Image from 'next/image'
+import Zoom from 'react-medium-image-zoom'
 const Ecchi = () => {
     return (
 
         
         <div >
+          <div className='flex items-center bg-fixed bg-cover custom-img'>
+
+          <div className='home5Main1Img  mx-auto'>     
+           <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
+      <img alt="landscape" src='/ecchi/mAIKA KAMNIURAI.png' />
+      </Zoom>      
+
+                      </div>
+                      <div className="home5Main1Img">
+                      <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
+          <img alt="landscape" src='/ecchi/Onsen2.png' />
+        </Zoom>      
+                      </div>     
+
+</div>
+        
 
     </div>
     )

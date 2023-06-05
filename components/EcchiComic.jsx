@@ -142,66 +142,47 @@ const IMAGESECCHI =
     {
       src: "/ecchi/nami kissxrobin.png",
       thumbnail:  "/ecchi/nami kissxrobin.png",
-      thumbnailWidth: 650,
+      thumbnailWidth: 649,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: "/ecchi/nami ruff.png",
       thumbnail:  "/ecchi/nami ruff.png",
-      thumbnailWidth: 650,
+      thumbnailWidth: 550,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
-      src: "/ecchi/Onsen2.png",
-      thumbnail:  "/ecchi/Onsen2.png",
-      thumbnailWidth: 380,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
       src: "/ecchi/outM arina1.png",
       thumbnail:  "/ecchi/outM arina1.png",
-      thumbnailWidth: 650,
-      thumbnailHeight: 512,
+      thumbnailWidth: 1200,
+      thumbnailHeight: 803,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: "/ecchi/REBECCA PIX.png",
       thumbnail:  "/ecchi/REBECCA PIX.png",
-      thumbnailWidth: 350,
+      thumbnailWidth: 420,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: "/ecchi/samus1.png",
       thumbnail:  "/ecchi/samus1.png",
-      thumbnailWidth: 350,
+      thumbnailWidth: 520,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
-    {
-      src: "/ecchi/samus2.png",
-      thumbnail:  "/ecchi/samus2.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
+
     {
       src: "/ecchi/samus3.png",
       thumbnail:  "/ecchi/samus3.png",
-      thumbnailWidth: 350,
+      thumbnailWidth: 520,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
-    {
-      src: "/ecchi/samus4.png",
-      thumbnail:  "/ecchi/samus4.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
-    },
+
     {
       src: "/ecchi/samus5.png",
       thumbnail:  "/ecchi/samus5.png",
@@ -212,22 +193,37 @@ const IMAGESECCHI =
     {
       src: "/ecchi/samus6.png",
       thumbnail:  "/ecchi/samus6.png",
-      thumbnailWidth: 350,
+      thumbnailWidth: 700,
+      thumbnailHeight: 512,
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+    
+
+    {
+      src: "/ecchi/shevaasddsads.png",
+      thumbnail:  "/ecchi/shevaasddsads.png",
+      thumbnailWidth: 530,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: "/ecchi/sheva&chris.png",
       thumbnail:  "/ecchi/sheva&chris.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
+      thumbnailWidth: 1249,
+      thumbnailHeight: 803,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
-
     {
-      src: "/ecchi/shevaasddsads.png",
-      thumbnail:  "/ecchi/shevaasddsads.png",
-      thumbnailWidth: 350,
+      src: "/ecchi/samus4.png",
+      thumbnail:  "/ecchi/samus4.png",
+      thumbnailWidth: 900,
+      thumbnailHeight: 803,
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+    {
+      src: "/ecchi/samus2.png",
+      thumbnail:  "/ecchi/samus2.png",
+      thumbnailWidth: 600,
       thumbnailHeight: 512,
       caption: "Boats (Jeshu John - designerspics.com)"
     },
@@ -238,14 +234,47 @@ const EcchiComic = ({heading, message}) => {
     return (
         <div>
 
-<div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
+<div className='flex items-center justify-center h-screen mb-[12] bg-fixed '>
   
             {/* Overlay */}
      
 
       <div>
+      <p className="py-125"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+    
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
+      <p className="py-5"></p>
 
+<div id='gallery' className='max-w-[1240px] py-4 mx-auto'>
+  <h1 style={{
+    fontSize: '2.8rem',
+    lineHeight: '1rem',
+    textAlign: 'center',
+    color: 'black',
+    padding: '2',
+    fontFamily: '-moz-initial'
+  }}>Gallery</h1>
+</div>
 
+<hr
+  style={{
+    background: 'brown',
+    color: 'brown',
+    borderColor: 'brown',
+    width: '70%',
+    margin: 'auto'
+  }}
+/>
+<p className="py-5"></p>
+<p className="py-5"></p>
 
 
       <div id='gallery' className='max-w-[900px]  mx-auto'>

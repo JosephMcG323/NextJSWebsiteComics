@@ -3,8 +3,9 @@ import EcchiComic from '../../components/EcchiComic'
 import Ecchi from '../../components/Ecchi'
 const ecchi = () => {
   return (
-    <div><EcchiComic heading='' message=''/>
-    <Ecchi/>
+    <div>    <Ecchi/>
+
+      <EcchiComic heading='' message=''/>
     
     
     </div>

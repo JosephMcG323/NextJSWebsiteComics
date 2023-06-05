@@ -10,7 +10,7 @@ const Hero = ({heading, message}) => {
         <div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
             {/* Overlay */}
             <div className='zoom'>
-            <a href="https://codingbeautydev.com" target="_blank" rel="noreferrer">
+            <a href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
