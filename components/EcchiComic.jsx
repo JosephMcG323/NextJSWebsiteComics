@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import Gallery from 'react-grid-gallery';
+import Ecchi from './Ecchi';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 const IMAGESECCHI =
   [
@@ -241,17 +243,25 @@ const EcchiComic = ({heading, message}) => {
 
       <div>
       <p className="py-125"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-    
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
-      <p className="py-5"></p>
+      
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+
 
 <div id='gallery' className='max-w-[1240px] py-4 mx-auto'>
   <h1 style={{
@@ -279,27 +289,103 @@ const EcchiComic = ({heading, message}) => {
 
       <div id='gallery' className='max-w-[900px]  mx-auto'>
         <Gallery images={IMAGESECCHI} />
+        <div className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+
+
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
 
         </div>
+        </div>
 
-          <p style={{
-            fontSize: '2.8rem',
-            paddingTop: '2rem',
-            paddingRight: '20rem',
-            paddingLeft: '12rem',
-            lineHeight: '2rem',
-            textAlign: 'center',
-            color: 'white',
-            textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
-            padding: '2',
-            fontFamily: '-moz-initial',
-            fontSize: '29px'
-          }}>{message}</p>
+
 </div>
 
 
             </div>
+      {/* <Slider slides={SliderData} /> */}
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
+      <p className="py-20"></p>
 
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" width={328} />
+      </div>
       </div>
 
     )

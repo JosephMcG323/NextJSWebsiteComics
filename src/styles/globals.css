@@ -13,6 +13,22 @@ html {
   padding-left: 9%;
 
 }
+
+.home9Main {
+  margin-top: 5%;
+  width: 100%;
+  height: 400px;
+  padding-top: 15%;
+  padding-right: 6%;
+}
+
+.home9Main1Img {
+  float: left;
+  width: 13%;
+  height: auto;
+}
+
+
 .home5Main1Img {
   float: left;
   width: 53%;
