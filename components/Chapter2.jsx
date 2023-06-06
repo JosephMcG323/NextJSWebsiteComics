@@ -120,6 +120,57 @@ const Chapter2 = () => {
         <img style={imgStyle} src='/chptr2/Page0070`.png' alt="Page " />
         <img style={imgStyle} src='/chptr2/pzendingsdff.png' alt="Page " />  
         </div>
+
+        <div className='flex items-center '>
+
+<div style={{paddingLeft: '15%'}} className='home5Main'>     
+<a href="/chapter2">
+<p style={{
+fontSize: '2.8rem',
+lineHeight: '2rem',
+textAlign: 'center',
+color: '#00FFFF',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+fontFamily: '-moz-initial',
+fontSize: '29px',
+paddingRight: '53%'
+}}>Previous Chapter</p>
+</a>
+<a href="/chapter1">
+<Image
+src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy.png'
+alt='/'
+width='250'
+height='290'
+/>   
+</a>  
+
+    </div>
+     <div style={{paddingLeft: '11%'}} className="home5Main">
+    <a href="/chapter2">
+<p style={{
+fontSize: '2.8rem',
+lineHeight: '2rem',
+textAlign: 'center',
+color: '#00FFFF',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+fontFamily: '-moz-initial',
+fontSize: '29px',
+paddingRight: '35%'
+}}>Next Chapter</p>
+</a>
+<a href="/chapter3">
+<Image
+src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy copy.png'
+alt='/'
+width='250'
+height='290'
+/>   
+</a>
+    </div>      
+
+</div>
+
       <div className='grid grid-rows-none md:grid-cols-5 p-4 gap-4'>
         
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>

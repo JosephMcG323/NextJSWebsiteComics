@@ -20,6 +20,7 @@ const Hero = ({heading, message}) => {
       </div>
 
 <div>
+<a href="/chapterHome">
 
 <div className='zoom_arrow'>
         <Image
@@ -29,6 +30,8 @@ const Hero = ({heading, message}) => {
           height='290'
         />   
       </div>
+      </a>
+      <a href="/chapterHome">
 
 <h2 style={{
             fontSize: '2.8rem',
@@ -42,7 +45,7 @@ const Hero = ({heading, message}) => {
             fontFamily: '-moz-initial',
             fontSize: '50px'
           }}>{heading}</h2>
-
+</a>
           <p style={{
             fontSize: '2.8rem',
             paddingTop: '2rem',
@@ -55,7 +58,7 @@ const Hero = ({heading, message}) => {
             padding: '2',
             fontFamily: '-moz-initial',
             fontSize: '29px'
-          }}>An exciting adventure about a narcoleptic superhero</p>
+          }}>An exciting adventure about a narcoleptic superhero!!</p>
 </div>
         
             </div>

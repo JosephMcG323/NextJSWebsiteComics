@@ -108,13 +108,67 @@ const Chapter3 = () => {
       <img style={imgStyle} src='/chptr3/Page0095a - Copy.png' alt="Page " />    
       <img style={imgStyle} src='/chptr3/Page0095b2zzzzzz.png' alt="Page " />    
       <img style={imgStyle} src='/chptr3/Page0096zzzz.png' alt="Page " />    
-      <img style={imgStyle} src='/chptr3/Page0097.png' alt="Page " />    
-      <img style={imgStyle} src='/chptr3/Page0098ZZZZZ.png' alt="Page " />    
+      <img style={imgStyle} src='/chptr3/Page0097 Shift.png' alt="Page " />    
+      <img style={imgStyle} src='/chptr3/Page0098Shift.png' alt="Page " />    
       <img style={imgStyle} src='/chptr3/Page0099aZZZZZ.png' alt="Page " />    
+      </div>
+      <div className='flex items-center '>
+
+<div style={{paddingLeft: '15%'}} className='home5Main'>     
+<a href="/chapter2">
+<p style={{
+fontSize: '2.8rem',
+lineHeight: '2rem',
+textAlign: 'center',
+color: '#00FFFF',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+fontFamily: '-moz-initial',
+fontSize: '29px',
+paddingRight: '79%'
+}}>Previous Chapter</p>
+</a>
+<a href="/chapter2">
+<Image
+src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy.png'
+alt='/'
+width='250'
+height='290'
+/>   
+</a>  
+
+    </div>
+     {/* <div style={{paddingLeft: '11%'}} className="home5Main">
+    <a href="/chapter2">
+<p style={{
+fontSize: '2.8rem',
+lineHeight: '2rem',
+textAlign: 'center',
+color: '#00FFFF',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+fontFamily: '-moz-initial',
+fontSize: '29px',
+paddingRight: '35%'
+}}>Next Chapter</p>
+</a>
+<a href="/chapter3">
+<Image
+src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy copy.png'
+alt='/'
+width='250'
+height='290'
+/>   
+</a>
+    </div>       */}
+
+</div>
+
+      <div className='grid grid-rows-none md:grid-cols-5 p-4 gap-4'>
+        
+        <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>
 
 
-      
-      
+
+
 
 
         <div className='w-full h-full'>
@@ -122,6 +176,8 @@ const Chapter3 = () => {
 
         </div>
       </div>      </div>
+
+    </div>
 
   )
 }
