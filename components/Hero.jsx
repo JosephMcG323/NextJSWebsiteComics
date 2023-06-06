@@ -9,21 +9,26 @@ const Hero = ({heading, message}) => {
 
         <div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
             {/* Overlay */}
-            <div className='zoom'>
+            <div className='home5Main7Img  mx-auto'>  
+<div  className='zoom'>
             <a href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
           width='500'
           height='900'
-        />    </a>
-      </div>
+        />
+        </a>
 
-<div>
+      </div>      </div>
+
+      <div className="home5Main7Img">
 <a href="/chapterHome">
-
-<div className='zoom_arrow'>
-        <Image
+<div style={{
+            fontSize: '2.8rem',
+            paddingLeft: '13%',
+            lineHeight: '2rem',}}  className='zoom'>
+        <Image 
           src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy.png'
           alt='/'
           width='250'
@@ -35,29 +40,29 @@ const Hero = ({heading, message}) => {
 
 <h2 style={{
             fontSize: '2.8rem',
-            paddingRight: '20rem',
-            paddingLeft: '12rem',
-            lineHeight: '2rem',
+            paddingRight: '28%',
+            lineHeight: '2.9rem',
+            wordSpacing: '5px',
             textAlign: 'center',
             color: 'white',
             textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000',            
-            padding: '2',
+            padding: '12',
             fontFamily: '-moz-initial',
-            fontSize: '50px'
+            fontSize: '59px'
           }}>{heading}</h2>
 </a>
           <p style={{
-            fontSize: '2.8rem',
-            paddingTop: '2rem',
-            paddingRight: '20rem',
-            paddingLeft: '12rem',
-            lineHeight: '2rem',
-            textAlign: 'center',
-            color: 'white',
-            textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
-            padding: '2',
-            fontFamily: '-moz-initial',
-            fontSize: '29px'
+  fontSize: '2.8rem',
+  paddingTop: '1rem',
+  paddingRight: '28%',
+
+  lineHeight: '2rem',
+  textAlign: 'center',
+  color: 'white',
+  textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+  padding: '2',
+  fontFamily: '-moz-initial',
+  fontSize: '29px'
           }}>An exciting adventure about a narcoleptic superhero!!</p>
 </div>
         

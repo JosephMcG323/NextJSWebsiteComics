@@ -4,15 +4,11 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 const HeroComicMain = ({heading, message}) => {
     return (
+        <div>
 
 <div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
-
-<div className='home5Main7Img'>  
-<div style={{
-  fontSize: '2.8rem',
-  paddingTop: '1rem',
-
-  lineHeight: '2rem',}} className='zoom'>
+            {/* Overlay */}
+            <div className='zoom'>
             <a href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
@@ -22,8 +18,8 @@ const HeroComicMain = ({heading, message}) => {
         />
         </a>
 
-      </div>      </div>
-      <div className="home5Main7Img">
+      </div>
+
       <div>
       <h2 style={{
             fontSize: '2.8rem',
@@ -112,12 +108,12 @@ const HeroComicMain = ({heading, message}) => {
             fontFamily: '-moz-initial',
             fontSize: '29px'
           }}></p>
-</div> 
+</div>
+
+
+            </div>
 
       </div>
-
-                       </div>    
-
 
     )
 }
