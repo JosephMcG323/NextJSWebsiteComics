@@ -45,10 +45,6 @@ const HeroComicMain = ({heading, message}) => {
             whiteSpace: 'normal'
           }}
           ></p>
-
-
-
-
 <div style={{
   paddingRight: '10%',
   paddingLef: '10%',}}  >

@@ -47,7 +47,9 @@ const Navbar = () => {
                     <li className='p-4'>
                         <Link href='/#gallery'>Gallery</Link>
                     </li>
-
+                    <li className='p-4'>
+                        <Link href='https://twitter.com/GoSleepyhead'>Twitter</Link>
+                    </li>
                 </ul>
                 {/* Mobile  Button */}
                 <div onClick={handleNav} className='block sm:hidden z-10'>
@@ -66,11 +68,9 @@ const Navbar = () => {
                             <Link href='/#gallery'>Gallery</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/chapter1'>chapter1</Link>
+                            <Link href='/chapterHome'>Chapters</Link>
                         </li>
-                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/ecchi'>Ecchi</Link>
-                        </li>
+
                     </ul>
                 </div>
             </div>

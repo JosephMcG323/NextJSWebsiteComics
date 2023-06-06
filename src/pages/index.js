@@ -287,7 +287,7 @@ export default function Home() {
 
       {/* <Slider slides={SliderData} /> */}
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <InstagramEmbed url="https://www.instagram.com/p/CUbHfhpswxt/" width={328} />
+        <InstagramEmbed url="https://www.instagram.com/p/CtKtlOGNdIX/" width={328} />
       </div>
 
 

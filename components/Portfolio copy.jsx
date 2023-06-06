@@ -20,7 +20,8 @@ const Portfolio = () => {
   <img style={imgStyle} src='/chptr1/Page6.jpg' alt="Page" />
   <img style={imgStyle} src='/chptr1/Page 7.png' alt="Page" />
   <img style={imgStyle} src='/chptr1/Page 8 - Copy.png' alt="Page" /> 
-  <img style={imgStyle} src='/chptr1/newPage 8b.png' alt="Page" />
+   <img style={imgStyle} src='/chptr1/newPage 8b.png' alt="Page" />
+
   <img style={imgStyle} src='/chptr1/Page 9.png' alt="Page" />
   <img style={imgStyle} src='/chptr1/Page 10.png' alt="Page" />
   <img style={imgStyle} src='/chptr1/Page 11.png' alt="Page" />
