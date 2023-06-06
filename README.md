@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 STUFF TO ADD!
+
+>> loading of images individually
+https://www.appelsiini.net/projects/lazyload/
+
+- $ yarn add lazyload
+
+- $ npm install lazyload
+
 https://www.npmjs.com/package/react-image-lightbox
 
 https://photoswipe.com/getting-started/
