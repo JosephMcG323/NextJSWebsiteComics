@@ -3,7 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = {images: {
+module.exports = {
+  optimizeFonts: false,
+  images: {
   domains: [
     'images.unsplash.com', 'plus.unsplash.com'
   ]
