@@ -3,12 +3,65 @@ import Image from 'next/image'
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
+import Link from 'next/link';
 
 const imgStyle = { maxWidth: '80%' }
 const imgStyleWide = { maxWidth: '100%' }
 
 const Portfolio = () => {
   return (
+
+<div>
+
+<div className='flex items-center justify-center h-screen mb-[12] bg-fixed bg-cover custom-img'>
+<div className='home5Main7Img'>  
+<div style={{
+  fontSize: '2.8rem',
+  paddingTop: '1rem',
+
+  lineHeight: '2rem',}} className='zoom'>
+            <a href="/chapterHome">
+        <Image
+          src='/VolumeCoverFina32222222l.png'
+          alt='/'
+          width='500'
+          height='900'
+        />
+        </a>
+
+      </div>      </div>
+      <div>
+      <div className="">
+
+<h2 style={{
+           fontSize: '2.8rem',
+           paddingRight: '28%',
+           lineHeight: '2.9rem',
+           wordSpacing: '5px',
+           textAlign: 'center',
+           color: 'white',
+           textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000',            
+           padding: '12',
+           fontFamily: '-moz-initial',
+           fontSize: '59px'
+          }}>{"Chapter 1 -  Heroes of Stroke City"}</h2>
+
+          <p style={{
+  fontSize: '2.8rem',
+  paddingTop: '1rem',
+  paddingRight: '28%',
+
+  lineHeight: '2rem',
+  textAlign: 'center',
+  color: 'white',
+  textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+  padding: '2',
+  fontFamily: '-moz-initial',
+  fontSize: '29px'
+          }}>{"Our heroes have to intercept a fleeing assailant running rampant through Stroke City!!"}</p>
+</div>
+            </div>            </div>
+
     <div className='max-w-[1240px] mx-auto py-16 text-center'>
       <h1 className='font-bold text-2xl p-4'></h1>
       <div style={{ display: 'flex', alignItems: 'center', flexDirection:'column' }}>
@@ -182,7 +235,12 @@ const Portfolio = () => {
         </div>
       </div>      </div>   
 
-    </div>
+    </div>           
+
+
+
+    <Link href='/ecchi'><h1> ​​​​</h1></Link>  
+</div>
   )
 }
 

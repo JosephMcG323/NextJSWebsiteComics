@@ -5,10 +5,8 @@ import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 import { InstagramEmbed } from 'react-social-media-embed';
 import React from 'react';
-import { render } from 'react-dom';
 import Gallery from 'react-grid-gallery';
-import { SliderData } from '../../components/SliderData'
-import Slider from '../../components/Slider'
+import Link from 'next/link';
 
 const longImgStyle = { maxWidth: '95%' }
 
@@ -19,7 +17,12 @@ const IMAGES =
       thumbnail:  "TagakiSanlaughBackG.png",
       thumbnailWidth: 312,
       thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
+      // caption: "@GoSleepyHead", 
+      //  customOverlay: (
+      //   <div className="custom-overlay__caption">
+      //     <div>Boats (Jeshu John - designerspics.com)</div>
+      //   </div>
+      // ),
     },
     {
       src: "TagakiSanWaterBackG.png",
@@ -115,7 +118,7 @@ const IMAGES =
       thumbnail:  "jessietall.png",
       thumbnailWidth: 300,
       thumbnailHeight: 500,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "re8 Olga2.png",
@@ -147,14 +150,6 @@ const IMAGES =
       caption: "@GoSleepyHead"
     },
     {
-      src: "leonaTug.jpg",
-      thumbnail:  "leonaTug.jpg",
-      thumbnailWidth: 380,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-
-    {
       src: "asuka kimono1.png",
       thumbnail:  "asuka kimono1.png",
       thumbnailWidth: 580,
@@ -167,7 +162,7 @@ const IMAGES =
       thumbnail:  "nami low 4.png",
       thumbnailWidth: 499,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
 
     {
@@ -175,7 +170,7 @@ const IMAGES =
       thumbnail:  "rebecca gun.png",
       thumbnailWidth: 450,
       thumbnailHeight: 450,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
   ]
 
@@ -222,7 +217,7 @@ export default function Home() {
         />
         <p className="py-5"></p>
         <div id='gallery' className='max-w-[900px]  mx-auto'>
-        <Gallery images={IMAGES} />
+        <Gallery images={IMAGES} enableImageSelection={false}  />
 
         </div>
 
@@ -254,7 +249,7 @@ export default function Home() {
         <h1 > ​​​​</h1>
         <h1 > ​​​​</h1>
         <h1 > ​​​​</h1>
-        <h1 > ​​​​</h1>        <h1 > ​​​​</h1>
+        <h1 > ​​​​</h1>      <h1> ​​​​</h1>
     
         </div>
 

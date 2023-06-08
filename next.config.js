@@ -5,7 +5,8 @@ const nextConfig = {
 
 module.exports = {
   optimizeFonts: false,
-  images: {
+  
+  images: {unoptimized: true,
   domains: [
     'images.unsplash.com', 'plus.unsplash.com'
   ]

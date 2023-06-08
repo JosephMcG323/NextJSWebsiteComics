@@ -146,35 +146,35 @@ const IMAGESECCHI =
       thumbnail:  "/ecchi/nami kissxrobin.png",
       thumbnailWidth: 649,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/nami ruff.png",
       thumbnail:  "/ecchi/nami ruff.png",
       thumbnailWidth: 550,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/outM arina1.png",
       thumbnail:  "/ecchi/outM arina1.png",
       thumbnailWidth: 1200,
       thumbnailHeight: 803,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/REBECCA PIX.png",
       thumbnail:  "/ecchi/REBECCA PIX.png",
       thumbnailWidth: 420,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/samus1.png",
       thumbnail:  "/ecchi/samus1.png",
       thumbnailWidth: 520,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
 
     {
@@ -182,7 +182,7 @@ const IMAGESECCHI =
       thumbnail:  "/ecchi/samus3.png",
       thumbnailWidth: 520,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
 
     {
@@ -190,14 +190,14 @@ const IMAGESECCHI =
       thumbnail:  "/ecchi/samus5.png",
       thumbnailWidth: 350,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/samus6.png",
       thumbnail:  "/ecchi/samus6.png",
       thumbnailWidth: 700,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     
 
@@ -206,28 +206,28 @@ const IMAGESECCHI =
       thumbnail:  "/ecchi/shevaasddsads.png",
       thumbnailWidth: 530,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/sheva&chris.png",
       thumbnail:  "/ecchi/sheva&chris.png",
       thumbnailWidth: 1249,
       thumbnailHeight: 803,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/samus4.png",
       thumbnail:  "/ecchi/samus4.png",
       thumbnailWidth: 900,
       thumbnailHeight: 803,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
     {
       src: "/ecchi/samus2.png",
       thumbnail:  "/ecchi/samus2.png",
       thumbnailWidth: 600,
       thumbnailHeight: 512,
-      caption: "Boats (Jeshu John - designerspics.com)"
+      caption: "@GoSleepyHead"
     },
   ]
 
@@ -235,6 +235,22 @@ const IMAGESECCHI =
 const EcchiComic = ({heading, message}) => {
     return (
         <div>
+
+<div className='flex items-center bg-fixed bg-cover custom-img'>
+
+<div className='home5Main7Img  mx-auto'>  
+      <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
+      <img alt="landscape" src='/ecchi/mAIKA KAMNIURAI.png' />
+      </Zoom>      </div>
+      <div className="home5Main7Img">
+      <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
+           <img alt="landscape" src='/ecchi/Onsen2.png' />
+        </Zoom>      
+
+      </div>
+
+                       </div>    
+
 
 <div className='flex items-center justify-center h-screen mb-[12] bg-fixed '>
   
@@ -288,7 +304,7 @@ const EcchiComic = ({heading, message}) => {
 
 
       <div id='gallery' className='max-w-[900px]  mx-auto'>
-        <Gallery images={IMAGESECCHI} />
+        <Gallery images={IMAGESECCHI} enableImageSelection={false} />
         <div className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
         <h1 > ​​​​</h1>
         <h1 > ​​​​</h1>

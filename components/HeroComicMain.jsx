@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
+
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 const HeroComicMain = ({heading, message}) => {
@@ -49,7 +51,7 @@ const HeroComicMain = ({heading, message}) => {
   paddingRight: '10%',
   paddingLef: '10%',}}  >
 
-<a href="/chapter1">
+<Link href="/chapter1">
 <p style={{
   fontSize: '2.8rem',
   paddingTop: '1rem',
@@ -62,8 +64,8 @@ const HeroComicMain = ({heading, message}) => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
 }}>• Chapter 1 - Heroes of Stroke City</p>
-</a>
-<a href="/chapter2">
+</Link>
+<Link href="/chapter2">
 <p style={{
   fontSize: '2.8rem',
   paddingTop: '1rem',
@@ -76,9 +78,9 @@ const HeroComicMain = ({heading, message}) => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
 }}>• Chapter 2 - Strokers</p>
-</a>
+</Link>
 
-<a href="/chapter3">
+<Link href="/chapter3">
 
 <p style={{
   fontSize: '2.8rem',
@@ -92,7 +94,7 @@ const HeroComicMain = ({heading, message}) => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
 }}>• Chapter 3 - The Clippers Are Coming</p>
-</a>
+</Link>
 </div>
 
           <p style={{
