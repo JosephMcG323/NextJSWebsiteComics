@@ -20,14 +20,14 @@ const Portfolio = () => {
   paddingTop: '1rem',
 
   lineHeight: '2rem',}} className='zoom'>
-            <a href="/chapterHome">
+            <Link href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
           width='500'
           height='900'
         />
-        </a>
+        </Link>
 
       </div>      </div>
       <div>
@@ -171,7 +171,7 @@ const Portfolio = () => {
           <div className='flex items-center '>
 
           <div style={{paddingLeft: '11%'}} className='home5Main'>     
-          <a href="/chapter2">
+          <Link href="/chapterHome">
   <p style={{
             fontSize: '2.8rem',
             lineHeight: '2rem',
@@ -182,19 +182,19 @@ const Portfolio = () => {
             fontSize: '29px',
             paddingRight: '43%'
           }}>Back Home</p>
-</a>
-<a href="/chapterHome">
+</Link>
+<Link href="/chapterHome">
         <Image
           src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy.png'
           alt='/'
           width='250'
           height='290'
         />   
- </a>  
+ </Link>  
 
                       </div>
                       <div style={{paddingLeft: '20%'}} className="home5Main">
-                      <a href="/chapter2">
+                      <Link href="/chapterHome">
   <p style={{
             fontSize: '2.8rem',
             lineHeight: '2rem',
@@ -205,15 +205,15 @@ const Portfolio = () => {
             fontSize: '29px',
             paddingRight: '21%'
           }}>Next Chapter</p>
-</a>
-<a href="/chapter2">
+</Link>
+<Link href="/chapter2">
         <Image
           src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy copy.png'
           alt='/'
           width='250'
           height='290'
         />   
- </a>
+ </Link>
                       </div>     
 
 </div>

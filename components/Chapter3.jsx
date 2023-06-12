@@ -1,9 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
-
-
+import Link from 'next/link';
 const imgStyle = { maxWidth: '80%' }
 const imgStyleWide = { maxWidth: '100%' }
 
@@ -20,14 +18,14 @@ const Chapter3 = () => {
   paddingTop: '1rem',
 
   lineHeight: '2rem',}} className='zoom'>
-            <a href="/chapterHome">
+            <Link href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
           width='500'
           height='900'
         />
-        </a>
+        </Link>
 
       </div>      </div>
       <div>
@@ -231,7 +229,7 @@ const Chapter3 = () => {
       <div className='flex items-center '>
 
 <div style={{paddingLeft: '15%'}} className='home5Main'>     
-<a href="/chapter2">
+<Link href="/chapter2">
 <p style={{
 fontSize: '2.8rem',
 lineHeight: '2rem',
@@ -242,39 +240,18 @@ fontFamily: '-moz-initial',
 fontSize: '29px',
 paddingRight: '79%'
 }}>Previous Chapter</p>
-</a>
-<a href="/chapter2">
+</Link>
+<Link href="/chapter2">
 <Image
 src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy.png'
 alt='/'
 width='250'
 height='290'
 />   
-</a>  
+</Link>  
 
     </div>
-     {/* <div style={{paddingLeft: '11%'}} className="home5Main">
-    <a href="/chapter2">
-<p style={{
-fontSize: '2.8rem',
-lineHeight: '2rem',
-textAlign: 'center',
-color: '#00FFFF',
-textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
-fontFamily: '-moz-initial',
-fontSize: '29px',
-paddingRight: '35%'
-}}>Next Chapter</p>
-</a>
-<a href="/chapter3">
-<Image
-src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy copy.png'
-alt='/'
-width='250'
-height='290'
-/>   
-</a>
-    </div>       */}
+    
 
 </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 const Hero = ({heading, message}) => {
@@ -11,19 +12,19 @@ const Hero = ({heading, message}) => {
             {/* Overlay */}
             <div className='home5Main7Img  mx-auto'>  
 <div  className='zoom'>
-            <a href="/chapterHome">
+            <Link href="/chapterHome">
         <Image
           src='/VolumeCoverFina32222222l.png'
           alt='/'
           width='500'
           height='900'
         />
-        </a>
+        </Link>
 
       </div>      </div>
 
       <div className="home5Main7Img">
-<a href="/chapterHome">
+<Link href="/chapterHome">
 <div style={{
             fontSize: '2.8rem',
             paddingLeft: '13%',
@@ -35,8 +36,8 @@ const Hero = ({heading, message}) => {
           height='290'
         />   
       </div>
-      </a>
-      <a href="/chapterHome">
+      </Link>
+      <Link href="/chapterHome">
 
 <h2 style={{
             fontSize: '2.8rem',
@@ -50,7 +51,7 @@ const Hero = ({heading, message}) => {
             fontFamily: '-moz-initial',
             fontSize: '59px'
           }}>{heading}</h2>
-</a>
+</Link>
           <p style={{
   fontSize: '2.8rem',
   paddingTop: '1rem',
