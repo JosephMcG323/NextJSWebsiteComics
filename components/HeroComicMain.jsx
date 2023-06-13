@@ -65,6 +65,9 @@ const HeroComicMain = ({heading, message}) => {
   fontSize: '29px'
 }}>• Chapter 1 - Heroes of Stroke City</p>
 </Link>
+
+
+
 <Link href="/chapter2">
 <p style={{
   fontSize: '2.8rem',

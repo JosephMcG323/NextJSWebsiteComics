@@ -303,7 +303,7 @@ const EcchiComic = ({heading, message}) => {
 <p className="py-5"></p>
 
 
-      <div id='gallery' className='max-w-[900px]  mx-auto'>
+      <div id='galslery' className='max-w-[900px]  mx-auto'>
         <Gallery images={IMAGESECCHI} enableImageSelection={false} />
         <div className="py-5"overlayBgColorEnd={'rgba(0, 0, 0, 0.94)'} >
         <h1 > ​​​​</h1>

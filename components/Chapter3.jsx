@@ -30,6 +30,8 @@ const Chapter3 = () => {
       </div>      </div>
       <div>
       <div className="">
+      <p className="py-7"></p>
+      <p className="py-7"></p>
 
 <h2 style={{
            fontSize: '2.8rem',
@@ -57,6 +59,58 @@ const Chapter3 = () => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
           }}>{"Jonas meets up with the Hero club"}</p>
+
+</div>
+<p className="py-2"></p>
+<p className="py-2"></p>
+
+<div style={{
+
+fontSize: '2.8rem',
+paddingTop: '1rem',
+paddingRight: '28%',
+
+lineHeight: '2rem',
+textAlign: 'center',
+color: 'white',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+padding: '2',
+fontFamily: '-moz-initial',
+fontSize: '29px'
+}}>
+<h2 style={{
+           fontSize: '2.8rem',
+           lineHeight: '2.9rem',
+           wordSpacing: '5px',
+           textAlign: 'center',
+           color: 'white',
+           textShadow: '-1px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000',            
+           padding: '12',
+           fontSize:  '45px'
+          }}>{"Scroll down"}</h2>
+      <p className="py-2"></p>
+
+</div>
+
+
+<div style={{
+
+
+display: 'block',
+marginLeft: 'auto',
+marginRight: 'auto',
+width: '50%',
+paddingLeft: '2.5%',
+
+
+}}>
+
+<Image 
+          src='/down.png'
+          alt='/'
+          width='150'
+          height='150'
+        />   
 </div>
             </div>            </div>
     <div className='max-w-[1240px] mx-auto py-16 text-center'>

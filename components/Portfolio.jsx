@@ -32,6 +32,7 @@ const Portfolio = () => {
       </div>      </div>
       <div>
       <div className="">
+      <p className="py-4"></p>
 
 <h2 style={{
            fontSize: '2.8rem',
@@ -45,7 +46,7 @@ const Portfolio = () => {
            fontFamily: '-moz-initial',
            fontSize: '59px'
           }}>{"Chapter 1 -  Heroes of Stroke City"}</h2>
-
+       
           <p style={{
   fontSize: '2.8rem',
   paddingTop: '1rem',
@@ -59,7 +60,56 @@ const Portfolio = () => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
           }}>{"Our heroes have to intercept a fleeing assailant running rampant through Stroke City!!"}</p>
+</div>      <p className="py-7"></p>
+<div style={{
+
+fontSize: '2.8rem',
+paddingTop: '1rem',
+paddingRight: '28%',
+
+lineHeight: '2rem',
+textAlign: 'center',
+color: 'white',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+padding: '2',
+fontFamily: '-moz-initial',
+fontSize: '29px'
+}}>
+<h2 style={{
+           fontSize: '2.8rem',
+           lineHeight: '2.9rem',
+           wordSpacing: '5px',
+           textAlign: 'center',
+           color: 'white',
+           textShadow: '-1px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000',            
+           padding: '12',
+           fontSize:  '45px'
+          }}>{"Scroll down"}</h2>
+      <p className="py-2"></p>
+
 </div>
+
+
+<div style={{
+
+
+display: 'block',
+marginLeft: 'auto',
+marginRight: 'auto',
+width: '50%',
+paddingLeft: '2.5%',
+
+
+}}>
+
+<Image 
+          src='/down.png'
+          alt='/'
+          width='150'
+          height='150'
+        />   
+</div>
+
             </div>            </div>
 
     <div className='max-w-[1240px] mx-auto py-16 text-center'>
