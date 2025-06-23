@@ -48,7 +48,7 @@ const Navbar = () => {
                         <Link href='/#gallery'>Gallery</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='https://twitter.com/GoSleepyhead'>Twitter</Link>
+                        <Link href='https://twitter.com/GoSleepyhead'>Twitter/X</Link>
                     </li>
                 </ul>
                 {/* Mobile  Button */}

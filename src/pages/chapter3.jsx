@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroComic from '../../components/HeroComic'
 import Chapter3 from '../../components/Chapter3'
 
 const chapter3 = () => {

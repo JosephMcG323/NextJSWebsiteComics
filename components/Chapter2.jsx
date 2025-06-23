@@ -102,7 +102,7 @@ paddingLeft: '2.5%',
 <p className="py-2"></p>
 <p className="py-2"></p>
 <Image 
-          src='/down.png'
+          src='/down2.png'
           alt='/'
           width='150'
           height='150'

@@ -106,7 +106,7 @@ paddingLeft: '2.5%',
 }}>
 
 <Image 
-          src='/down.png'
+          src='/down2.png'
           alt='/'
           width='150'
           height='150'
@@ -305,6 +305,28 @@ height='290'
 </Link>  
 
     </div>
+    <div style={{paddingLeft: '11%'}} className="home5Main">
+    <Link href="/chapter3">
+<p style={{
+fontSize: '2.8rem',
+lineHeight: '4rem',
+textAlign: 'center',
+color: '#00FFFF',
+textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+fontFamily: '-moz-initial',
+fontSize: '29px',
+paddingRight: '35%'
+}}>Next Chapter</p>
+</Link>
+<Link href="/chapter4">
+<Image
+src='/Bend-sticker-cartoon-pointing-arrow-creative-150423457 - Copy copy.png'
+alt='/'
+width='250'
+height='290'
+/>   
+</Link>
+    </div>      
     
 
 </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroComic from '../../components/HeroComic'
 import Portfolio from '../../components/Portfolio'
 
 const chapter1 = () => {

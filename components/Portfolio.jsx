@@ -103,7 +103,7 @@ paddingLeft: '2.5%',
 }}>
 
 <Image 
-          src='/down.png'
+          src='/down2.png'
           alt='/'
           width='150'
           height='150'

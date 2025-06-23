@@ -30,7 +30,7 @@ const HeroComicMain = ({heading, message}) => {
       <h2 style={{
             fontSize: '2.8rem',
             
-            paddingRight: '40%',
+            paddingRight: '47%',
             lineHeight: '2rem',
             wordSpacing: '5px',
             textAlign: 'center',
@@ -97,6 +97,22 @@ const HeroComicMain = ({heading, message}) => {
   fontFamily: '-moz-initial',
   fontSize: '29px'
 }}>• Chapter 3 - The Clippers Are Coming</p>
+</Link>
+
+<Link href="/chapter4">
+
+<p style={{
+  fontSize: '2.8rem',
+  paddingTop: '1rem',
+
+  lineHeight: '2rem',
+  textAlign: 'left',
+  color: 'white',
+  textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+  padding: '2',
+  fontFamily: '-moz-initial',
+  fontSize: '29px'
+}}>• Chapter 4 - White Butterfly</p>
 </Link>
 </div>
 
