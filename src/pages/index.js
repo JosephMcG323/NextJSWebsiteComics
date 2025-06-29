@@ -6,172 +6,169 @@ import 'react-medium-image-zoom/dist/styles.css'
 import { InstagramEmbed } from 'react-social-media-embed';
 import React from 'react';
 import Gallery from 'react-grid-gallery';
-import Link from 'next/link';
 
 const longImgStyle = { maxWidth: '95%' }
 
 const IMAGES =
   [
-    {
-      src: "TagakiSanlaughBackG.png",
-      thumbnail:  "TagakiSanlaughBackG.png",
-      thumbnailWidth: 312,
-      thumbnailHeight: 312,
-      // caption: "@GoSleepyHead", 
-      //  customOverlay: (
-      //   <div className="custom-overlay__caption">
-      //     <div>Boats (Jeshu John - designerspics.com)</div>
-      //   </div>
-      // ),
-    },
-    {
-      src: "TagakiSanWaterBackG.png",
-      thumbnail:  "TagakiSanWaterBackG.png",
-      thumbnailWidth: 312,
-      thumbnailHeight: 312,
+            {
+      src: "mainPageGallery/beachGirls2.png",
+      thumbnail:  "mainPageGallery/beachGirls2.png",
+      thumbnailWidth: 450,
+      thumbnailHeight: 450,
       caption: "@GoSleepyHead"
     },
-    {
-      src: "ShinjiSittingTrain.png",
-      thumbnail:  "ShinjiSittingTrain.png",
-      thumbnailWidth: 550,
-      thumbnailHeight: 412,
+    
+     {
+      src: "mainPageGallery/FairyTailGirls.png",
+      thumbnail:  "mainPageGallery/FairyTailGirls.png",
+      thumbnailWidth: 750,
+      thumbnailHeight: 450,
       caption: "@GoSleepyHead"
     },
-    {
-      src: "jessietall kiss 2.png",
-      thumbnail:  "jessietall kiss 2.png",
-      thumbnailWidth: 500,
-      thumbnailHeight: 312,
+         {
+      src: "mainPageGallery/jessi pokemon Cropped.png",
+      thumbnail:  "mainPageGallery/jessi pokemon Cropped.png",
+      thumbnailWidth: 650,
+      thumbnailHeight: 450,
       caption: "@GoSleepyHead"
     },
-      {
-        src: "jessietall sad.png",
-        thumbnail:  "jessietall sad.png",
-        thumbnailWidth: 320,
-        thumbnailHeight: 312,
-        caption: "@GoSleepyHead"
-      },
-      
-      {
-        src: "shinji xtc.png",
-        thumbnail:  "shinji xtc.png",
+             {
+      src: "mainPageGallery/Lillie.png",
+      thumbnail:  "mainPageGallery/Lillie.png",
+      thumbnailWidth: 470,
+      thumbnailHeight: 450,
+      caption: "@GoSleepyHead"
+    },
+          {
+        src: "mainPageGallery/shinji xtc.png",
+        thumbnail:  "mainPageGallery/shinji xtc.png",
         thumbnailWidth: 350,
         thumbnailHeight: 312,
         caption: "@GoSleepyHead"
       },
+    {
+      src: "mainPageGallery/TagakiSanlaughBackG.png",
+      thumbnail:  "mainPageGallery/TagakiSanlaughBackG.png",
+      thumbnailWidth: 200,
+      thumbnailHeight: 169,
+      caption: "@GoSleepyHead"
+    },
+    {
+      src: "mainPageGallery/TagakiSanWaterBackG.png",
+      thumbnail:  "mainPageGallery/TagakiSanWaterBackG.png",
+      thumbnailWidth: 200,
+      thumbnailHeight: 200,
+      caption: "@GoSleepyHead"
+    },
+    {
+      src: "mainPageGallery/ShinjiSittingTrain.png",
+      thumbnail:  "mainPageGallery/ShinjiSittingTrain.png",
+      thumbnailWidth: 300,
+      thumbnailHeight: 180,
+      caption: "@GoSleepyHead"
+    },
       {
-        src: "shinji blu.png",
-        thumbnail:  "shinji blu.png",
+        src: "mainPageGallery/jessietall sad.png",
+        thumbnail:  "mainPageGallery/jessietall sad.png",
+        thumbnailWidth: 200,
+        thumbnailHeight: 200,
+        caption: "@GoSleepyHead"
+      },
+      
+
+      {
+        src: "mainPageGallery/shinji blu.png",
+        thumbnail:  "mainPageGallery/shinji blu.png",
         thumbnailWidth: 350,
         thumbnailHeight: 312,
         caption: "@GoSleepyHead"
       },
       
     {
-      src: "rei look up3.png",
-      thumbnail:  "rei look up3.png",
+      src: "mainPageGallery/rei look up3.png",
+      thumbnail:  "mainPageGallery/rei look up3.png",
       thumbnailWidth: 400,
       thumbnailHeight: 412,
       caption: "@GoSleepyHead"
     },
 
     {
-      src: "rei sit.png",
-      thumbnail:  "rei sit.png",
-      thumbnailWidth: 420,
+      src: "mainPageGallery/lucy2.png",
+      thumbnail:  "mainPageGallery/lucy2.png",
+      thumbnailWidth: 320,
       thumbnailHeight: 412,
       caption: "@GoSleepyHead"
     },
     {
-      src: "rei standasd.png",
-      thumbnail:  "rei standasd.png",
+      src: "mainPageGallery/rei standasd.png",
+      thumbnail:  "mainPageGallery/rei standasd.png",
       thumbnailWidth: 350,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
     {
-      src: "nami crack.png",
-      thumbnail:  "nami crack.png",
+      src: "mainPageGallery/nami crack.png",
+      thumbnail:  "mainPageGallery/nami crack.png",
       thumbnailWidth: 320,
       thumbnailHeight: 312,
       caption: "@GoSleepyHead"
     },
     {
-      src: "nami low 2.png",
-      thumbnail:  "nami low 2.png",
+      src: "mainPageGallery/re8 Olga 1.png",
+      thumbnail:  "mainPageGallery/re8 Olga 1.png",
       thumbnailWidth: 450,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
 
-
     {
-      src: "re8 Olga 1.png",
-      thumbnail:  "re8 Olga 1.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "jessietall.png",
-      thumbnail:  "jessietall.png",
-      thumbnailWidth: 300,
-      thumbnailHeight: 500,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "re8 Olga2.png",
-      thumbnail:  "re8 Olga2.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "asuka kimono.png",
-      thumbnail:  "asuka kimono.png",
+      src: "mainPageGallery/asuka kimono.png",
+      thumbnail:  "mainPageGallery/asuka kimono.png",
       thumbnailWidth: 280,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
     {
-      src: "mallow header.png",
-      thumbnail:  "mallow header.png",
+      src: "mainPageGallery/mallow header.png",
+      thumbnail:  "mainPageGallery/mallow header.png",
       thumbnailWidth: 500,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
     
     {
-      src: "mallowOutKimono.png",
-      thumbnail:  "mallowOutKimono.png",
-      thumbnailWidth: 350,
+      src: "mainPageGallery/mallowOutKimonoRedux.png",
+      thumbnail:  "mainPageGallery/mallowOutKimonoRedux.png",
+      thumbnailWidth: 450,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
     {
-      src: "asuka kimono1.png",
-      thumbnail:  "asuka kimono1.png",
+      src: "mainPageGallery/asuka kimono1.png",
+      thumbnail:  "mainPageGallery/asuka kimono1.png",
       thumbnailWidth: 580,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
 
     {
-      src: "nami low 4.png",
-      thumbnail:  "nami low 4.png",
+      src: "mainPageGallery/nami low 4.png",
+      thumbnail:  "mainPageGallery/nami low 4.png",
       thumbnailWidth: 499,
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
 
-    {
-      src: "rebecca gun.png",
-      thumbnail:  "rebecca gun.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 450,
-      caption: "@GoSleepyHead"
-    },
+    // {
+    //   src: "mainPageGallery/rebecca gun.png",
+    //   thumbnail:  "mainPageGallery/rebecca gun.png",
+    //   thumbnailWidth: 450,
+    //   thumbnailHeight: 450,
+    //   caption: "@GoSleepyHead"
+    // },
+
+
   ]
 
   

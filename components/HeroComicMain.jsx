@@ -114,6 +114,22 @@ const HeroComicMain = ({heading, message}) => {
   fontSize: '29px'
 }}>• Chapter 4 - White Butterfly</p>
 </Link>
+
+<Link href="/chapter5">
+
+<p style={{
+  fontSize: '2.8rem',
+  paddingTop: '1rem',
+
+  lineHeight: '2rem',
+  textAlign: 'left',
+  color: 'white',
+  textShadow: '-1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000',            
+  padding: '2',
+  fontFamily: '-moz-initial',
+  fontSize: '29px'
+}}>• Chapter 5 -Let's play Kerby! (Kerby)</p>
+</Link>
 </div>
 
           <p style={{

@@ -22,21 +22,6 @@ const IMAGESECCHI =
       thumbnailHeight: 312,
       caption: "@GoSleepyHead"
     },
-
-    {
-      src: "/ecchi/CLIPStudioPaint_9tcZHAP1sl.png",
-      thumbnail:  "/ecchi/CLIPStudioPaint_9tcZHAP1sl.png",
-      thumbnailWidth: 330,
-      thumbnailHeight: 250,
-      caption: "@GoSleepyHead"
-    },
-      {
-        src: "/ecchi/CLIPStudioPaint_T7AlcGzUT9.png",
-        thumbnail:  "/ecchi/CLIPStudioPaint_T7AlcGzUT9.png",
-        thumbnailWidth: 320,
-        thumbnailHeight: 312,
-        caption: "@GoSleepyHead"
-      },
       
       {
         src: "/ecchi/HOTD saeko out pink.png",
@@ -45,29 +30,7 @@ const IMAGESECCHI =
         thumbnailHeight: 312,
         caption: "@GoSleepyHead"
       },
-      {
-        src: "/ecchi/Ingrid.png",
-        thumbnail:  "/ecchi/Ingrid.png",
-        thumbnailWidth: 270,
-        thumbnailHeight: 312,
-        caption: "@GoSleepyHead"
-      },
-      
-    {
-      src: "/ecchi/ingrid12.png",
-      thumbnail:  "/ecchi/ingrid12.png",
-      thumbnailWidth: 400,
-      thumbnailHeight: 412,
-      caption: "@GoSleepyHead"
-    },
 
-    {
-      src: "/ecchi/Jessie PokemonFinal.png",
-      thumbnail:  "/ecchi/Jessie PokemonFinal.png",
-      thumbnailWidth: 400,
-      thumbnailHeight: 412,
-      caption: "@GoSleepyHead"
-    },
     {
       src: "/ecchi/Jessie PokemonRuff.png",
       thumbnail:  "/ecchi/Jessie PokemonRuff.png",
@@ -75,160 +38,8 @@ const IMAGESECCHI =
       thumbnailHeight: 512,
       caption: "@GoSleepyHead"
     },
-    {
-      src: "/ecchi/mallow COWGIRL.png",
-      thumbnail:  "/ecchi/mallow COWGIRL.png",
-      thumbnailWidth: 320,
-      thumbnailHeight: 312,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mallow.png",
-      thumbnail:  "/ecchi/mallow.png",
-      thumbnailWidth: 550,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
 
 
-    {
-      src: "/ecchi/mallowpillow.png",
-      thumbnail:  "/ecchi/mallowpillow.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mariana jcup 1 1st.png",
-      thumbnail:  "/ecchi/mariana jcup 1 1st.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mariana jcup suuck.png",
-      thumbnail:  "/ecchi/mariana jcup suuck.png",
-      thumbnailWidth: 480,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mariana jcup2.png",
-      thumbnail:  "/ecchi/mariana jcup2.png",
-      thumbnailWidth: 450,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mariana jcupasddsadsaasd.png",
-      thumbnail:  "/ecchi/mariana jcupasddsadsaasd.png",
-      thumbnailWidth: 380,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mariana jcupralll.png",
-      thumbnail:  "/ecchi/mariana jcupralll.png",
-      thumbnailWidth: 280,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/mistytrreee2.png",
-      thumbnail:  "/ecchi/mistytrreee2.png",
-      thumbnailWidth: 380,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-
-    {
-      src: "/ecchi/nami kissxrobin.png",
-      thumbnail:  "/ecchi/nami kissxrobin.png",
-      thumbnailWidth: 649,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/nami ruff.png",
-      thumbnail:  "/ecchi/nami ruff.png",
-      thumbnailWidth: 550,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/outM arina1.png",
-      thumbnail:  "/ecchi/outM arina1.png",
-      thumbnailWidth: 1200,
-      thumbnailHeight: 803,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/REBECCA PIX.png",
-      thumbnail:  "/ecchi/REBECCA PIX.png",
-      thumbnailWidth: 420,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/samus1.png",
-      thumbnail:  "/ecchi/samus1.png",
-      thumbnailWidth: 520,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-
-    {
-      src: "/ecchi/samus3.png",
-      thumbnail:  "/ecchi/samus3.png",
-      thumbnailWidth: 520,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-
-    {
-      src: "/ecchi/samus5.png",
-      thumbnail:  "/ecchi/samus5.png",
-      thumbnailWidth: 350,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/samus6.png",
-      thumbnail:  "/ecchi/samus6.png",
-      thumbnailWidth: 700,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    
-
-    {
-      src: "/ecchi/shevaasddsads.png",
-      thumbnail:  "/ecchi/shevaasddsads.png",
-      thumbnailWidth: 530,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/sheva&chris.png",
-      thumbnail:  "/ecchi/sheva&chris.png",
-      thumbnailWidth: 1249,
-      thumbnailHeight: 803,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/samus4.png",
-      thumbnail:  "/ecchi/samus4.png",
-      thumbnailWidth: 900,
-      thumbnailHeight: 803,
-      caption: "@GoSleepyHead"
-    },
-    {
-      src: "/ecchi/samus2.png",
-      thumbnail:  "/ecchi/samus2.png",
-      thumbnailWidth: 600,
-      thumbnailHeight: 512,
-      caption: "@GoSleepyHead"
-    },
   ]
 
 
